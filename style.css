@@ -50,7 +50,7 @@ body {
 }
 
 main {
-	max-width: 50%;
+	max-width: 45%;
 	min-height: 50%;
 	display: flex;
 	border-radius: 4rem;
@@ -105,7 +105,7 @@ section {
 }
 
 .summary {
-	padding: 5rem 4rem 4rem 4rem;
+	padding: 3rem 4rem 3rem 4rem;
 	color: var(--dark-gray-blue);
 }
 
