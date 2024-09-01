@@ -51,7 +51,7 @@ body {
 
 main {
 	max-width: 40%;
-	height: 58%;
+	height: 50%;
 	display: flex;
 	border-radius: 4rem;
 	box-shadow: 0 2rem 2rem 2rem hsla(241, 100%, 89%, 0.2);
@@ -80,19 +80,19 @@ section {
 }
 
 .round-display {
-	width: 22rem;
-	height: 22rem;
+	width: 16rem;
+	height: 16rem;
 	border-radius: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
-	margin: 3rem;
+	margin: 2rem 3rem;
 }
 
 .score {
-	font-size: 8rem;
+	font-size: 6rem;
 	font-weight: 800;
 	color: white;
 }
@@ -115,9 +115,9 @@ section {
 
 .category {
 	display: flex;
-	padding: 1.5rem 2rem;
+	padding: 1rem 1.5rem;
 	border-radius: 2rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -173,14 +173,15 @@ span {
 
 button {
 	width: 100%;
-	padding: 2rem;
+	padding: 1.5rem;
 	color: white;
 	border-radius: 5rem;
 	border: none;
 	background-color: var(--dark-gray-blue);
-	font-size: 2.8rem;
+	font-size: 2rem;
+	font-weight: 700;
 	letter-spacing: 0.1rem;
-	margin-top: 2rem;
+	margin-top: 1.5rem;
 	margin-bottom: 3rem;
 	cursor: pointer;
 	transition: all 0.5s;
