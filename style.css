@@ -50,11 +50,11 @@ body {
 }
 
 main {
-	max-width: 45%;
-	min-height: 47%;
+	max-width: 42%;
+	min-height: 45%;
 	display: flex;
 	border-radius: 4rem;
-	box-shadow: 0 1rem 2rem 1.5rem hsla(241, 100%, 89%, 0.2);
+	box-shadow: 0 2rem 2rem 2rem hsla(241, 100%, 89%, 0.2);
 }
 
 section {
