@@ -51,10 +51,10 @@ body {
 
 main {
 	max-width: 50%;
-	min-height: 55%;
+	min-height: 50%;
 	display: flex;
 	border-radius: 4rem;
-	box-shadow: 0 1rem 2rem 1.5rem hsl(241, 100%, 89%);
+	box-shadow: 0 1rem 2rem 1.5rem hsla(241, 100%, 89%, 0.2);
 }
 
 section {
@@ -70,7 +70,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 5rem;
+	padding: 3rem;
 	color: var(--light-lavender);
 }
 
