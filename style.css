@@ -50,8 +50,8 @@ body {
 }
 
 main {
-	width: 50%;
-	height: 55%;
+	max-width: 50%;
+	min-height: 55%;
 	display: flex;
 	border-radius: 4rem;
 	box-shadow: 0 1rem 2rem 1.5rem hsl(241, 100%, 89%);
@@ -168,6 +168,7 @@ section {
 
 span {
 	font-weight: 800;
+	margin-right: 1rem;
 }
 
 button {

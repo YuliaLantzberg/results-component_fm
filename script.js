@@ -17,7 +17,7 @@ fetch("data.json")
 			const scoreNum = document.createElement("span");
 			scoreNum.textContent = dataJson[i].score;
 			score.appendChild(scoreNum);
-			scoreNum.after("/100");
+			scoreNum.after("/ 100");
 			categories[i].appendChild(categoryName);
 			categories[i].appendChild(score);
 		}
