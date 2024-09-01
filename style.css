@@ -51,7 +51,7 @@ body {
 
 main {
 	max-width: 45%;
-	min-height: 49%;
+	min-height: 47%;
 	display: flex;
 	border-radius: 4rem;
 	box-shadow: 0 1rem 2rem 1.5rem hsla(241, 100%, 89%, 0.2);

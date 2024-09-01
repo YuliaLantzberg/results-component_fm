@@ -8,6 +8,7 @@ fetch("data.json")
 			categoryName.classList.add("category__name");
 			const icon = document.createElement("img");
 			icon.src = dataJson[i].icon;
+			icon.alt = "";
 			categoryName.appendChild(icon);
 			const name = document.createElement("p");
 			name.textContent = dataJson[i].category;
