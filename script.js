@@ -1,6 +1,6 @@
 const categories = document.getElementsByClassName("category");
 
-fetch("/data.json")
+fetch("data.json")
 	.then((res) => res.json())
 	.then((dataJson) => {
 		for (let i = 0; i < categories.length; i++) {
